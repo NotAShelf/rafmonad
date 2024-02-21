@@ -1,0 +1,9 @@
+dependencies:
+  - base >= 4.6
+  - bytestring
+  - http2
+  - network
+  - async
+executables:
+  rafmonad:
+    main: src/net.hs
